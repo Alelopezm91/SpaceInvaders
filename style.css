@@ -1,0 +1,59 @@
+body {
+  padding: 0;
+  text-align: center;
+  background-color: black;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.game-intro {
+  margin-left:50px;
+  float: left;
+  padding: 0% 10%;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.instructions p{
+  font-size: 25px;
+  font-family: "Verdana";
+  color:white;
+}
+
+.logo-img {
+  width: 350px;
+}
+
+
+body button {
+  font-size: 30px;
+  background-color: #870007;
+  color: #fff;
+  padding: 20px 40px;
+  border: 0;
+  box-shadow: 0;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+#start-button{
+  margin-left: 100px;
+  margin-top: 100px;
+  height:80px;
+  width:220px;
+}
+
+#game-board {
+    float: left;
+    padding: 20px 0px;
+}
+
+#canvas{
+border:dashed white 2px;
+}

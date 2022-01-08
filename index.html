@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>myGame</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="game-intro">
+    <img src="/game/images/space invaders logo.png" alt="" class="logo-img" />
+    <br />
+    <button id="start-button">StartGame</button>
+  </div>
+  <div class="instructions">
+        <p>Use the left and right arrow to move the ship
+          <br /> don't SPACE-out and forget to shoot!
+        </p>
+  </div>
+
+  <div id="game-board">
+    <canvas id="canvas" width="800" height="500"></canvas>
+  </div>
+
+  <script src="/constants.js"></script>
+  <script src="/game/laser.js"></script>
+  <script src="/game/invaders.js"></script>
+  <script src="/game/player.js"></script>
+  <script src="/game/game.js"></script>
+  <script src="/game/script.js"></script>
+</body>
+
+</html>
