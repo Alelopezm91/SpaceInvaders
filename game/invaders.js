@@ -17,7 +17,7 @@ class Invader {
     this.gameOver=false;
 
     this.img = new Image();
-    this.img.src = "/game/images/Daco_5686022.png";
+    this.img.src = "./game/images/Daco_5686022.png";
     this.img.isReady = false;
     this.img.onload = () => {
       this.img.isReady = true;
