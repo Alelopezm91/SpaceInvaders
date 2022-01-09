@@ -12,7 +12,7 @@ class Laser {
     this.vy = 0;
 
     this.img = new Image();
-    this.img.src = "/game/images/pngfind.com-overwatch-png-6736737.png";
+    this.img.src = "./game/images/pngfind.com-overwatch-png-6736737.png";
     this.img.isReady = false;
     this.img.onload = () => {
       this.img.isReady = true;
