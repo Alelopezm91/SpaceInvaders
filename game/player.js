@@ -23,7 +23,7 @@ class Player {
 
 
   this.img = new Image();
-  this.img.src ='/game/images/spaceship.png';
+  this.img.src ='./game/images/spaceship.png';
   this.img.isReady= false;
   this.img.onload = () => {
   this.img.isReady=true
