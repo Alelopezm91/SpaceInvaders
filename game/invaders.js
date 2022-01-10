@@ -9,7 +9,7 @@ class Invader {
     this.height = 75;
 
     this.vx = -3;
-    this.vy = 10;
+    this.vy = 9;
 
     this.alienMarginLeft = this.x-100;
     this.alienMarginRight = this.x + 100;
