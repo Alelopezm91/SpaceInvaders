@@ -5,15 +5,15 @@ class Game {
 
     this.player = new Player(ctx);
     this.invaders = [
-      new Invader(ctx, 180, 100),
-      new Invader(ctx, 330, 100),
-      new Invader(ctx, 480, 100),
-      new Invader(ctx, 630, 100),
-      new Invader(ctx, 95, 200),
-      new Invader(ctx, 255, 200),
-      new Invader(ctx, 405, 200),
-      new Invader(ctx, 555, 200),
-      new Invader(ctx, 705, 200),
+      new Invader(ctx, 180, 80),
+      new Invader(ctx, 330, 80),
+      new Invader(ctx, 480, 80),
+      new Invader(ctx, 630, 80),
+      new Invader(ctx, 95, 180),
+      new Invader(ctx, 255, 180),
+      new Invader(ctx, 405, 180),
+      new Invader(ctx, 555, 180),
+      new Invader(ctx, 705, 180),
     ];
 
     this.lasers = [];
