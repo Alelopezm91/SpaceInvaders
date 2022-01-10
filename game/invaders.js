@@ -14,8 +14,6 @@ class Invader {
     this.alienMarginLeft = this.x-100;
     this.alienMarginRight = this.x + 100;
 
-    this.gameOver=false;
-
     this.img = new Image();
     this.img.src = "./game/images/Daco_5686022.png";
     this.img.isReady = false;
